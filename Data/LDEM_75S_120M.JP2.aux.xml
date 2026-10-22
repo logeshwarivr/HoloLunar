@@ -1,0 +1,56 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="ALL_COMMENTS">Kdu-Layer-Info: log_2{Delta-D(MSE)/[2^16*Delta-L(bytes)]}, L(bytes)
+ -60.6,  1.9e+05
+ -61.7,  2.6e+05
+ -62.8,  3.7e+05
+ -63.9,  5.3e+05
+ -65.0,  7.5e+05
+ -66.6,  1.1e+06
+ -67.7,  1.5e+06
+ -68.7,  2.1e+06
+ -69.9,  3.0e+06
+ -71.0,  4.2e+06
+ -72.4,  6.0e+06
+ -73.1,  8.5e+06
+ -74.1,  1.2e+07
+ -75.7,  1.7e+07
+ -76.8,  2.4e+07
+-256.0,  3.4e+07
+</MDI>
+    <MDI key="COLORSPACE">GREYSCALE</MDI>
+    <MDI key="COMPRESSION_RATE_TARGET">3</MDI>
+    <MDI key="TIFFTAG_RESOLUTIONUNIT">3 (pixels/cm)</MDI>
+    <MDI key="TIFFTAG_XRESOLUTION">0.393707</MDI>
+    <MDI key="TIFFTAG_YRESOLUTION">0.393707</MDI>
+  </Metadata>
+  <Metadata domain="JPEG2000">
+    <MDI key="PROFILE">2</MDI>
+    <MDI key="TILES_X">1</MDI>
+    <MDI key="TILES_Y">1</MDI>
+    <MDI key="TILE_WIDTH">7624</MDI>
+    <MDI key="TILE_HEIGHT">7624</MDI>
+    <MDI key="PRECINCT_SIZE_X">32768,32768,32768,32768,32768</MDI>
+    <MDI key="PRECINCT_SIZE_Y">32768,32768,32768,32768,32768</MDI>
+    <MDI key="CODE_BLOCK_SIZE_X">64</MDI>
+    <MDI key="CODE_BLOCK_SIZE_Y">64</MDI>
+    <MDI key="PRECISION">16</MDI>
+    <MDI key="RESOLUTION_LEVELS">5</MDI>
+    <MDI key="QUALITY_LAYERS">16</MDI>
+    <MDI key="PROGRESSION_ORDER">LRCP</MDI>
+    <MDI key="TRANSFORMATION_TYPE">5x3</MDI>
+    <MDI key="USE_SOP">FALSE</MDI>
+    <MDI key="USE_EPH">FALSE</MDI>
+    <MDI key="GML_JP2_DATA">FALSE</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Description>Grayscale</Description>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">-15395</MDI>
+      <MDI key="STATISTICS_MAXIMUM">13889</MDI>
+      <MDI key="STATISTICS_MEAN">-2658.2192465221</MDI>
+      <MDI key="STATISTICS_STDDEV">4719.3995942858</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

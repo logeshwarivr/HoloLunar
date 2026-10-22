@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+matplotlib
+pillow
+rasterio
+pywavelets
+zstandard
+constriction
+zfpy
+streamlit

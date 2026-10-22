@@ -1,0 +1,14 @@
+{
+ "lola": {
+  "pixel_m": 120.0,
+  "kind": "dem"
+ },
+ "copdem": {
+  "pixel_m": 30.0,
+  "kind": "dem"
+ },
+ "s1vv": {
+  "pixel_m": 10.0,
+  "kind": "sar"
+ }
+}

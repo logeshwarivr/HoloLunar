@@ -1,0 +1,53 @@
+# ---------- Raw Chandrayaan-2 data (multi-GB, download from ISSDC PRADAN instead) ----------
+ch2_sar_*
+*.zip
+faustini_data/
+
+# ---------- Large basemaps / rasters (download again from the source) ----------
+lroc_color_*.tif
+lroc_color*.exr
+*.JP2
+*.jp2
+
+# ---------- Python ----------
+.venv/
+__pycache__/
+*.pyc
+
+# ---------- Unity (generated / machine-specific) ----------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+.utmp/
+.vscode/
+.vs/
+.idea/
+.gradle/
+_Recovery/
+_Recovery.meta
+*.apk
+*.aab
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+sysinfo.txt
+
+# ---------- Secrets ----------
+# The Vuforia license key lives in this file. Anyone who clones the repo adds their own key.
+**/Assets/Resources/VuforiaConfiguration.asset
+**/Assets/Resources/VuforiaConfiguration.asset.meta
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+s1_vv.tif
+*.tgz
