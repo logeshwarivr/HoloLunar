@@ -19,8 +19,8 @@ An augmented reality framework for real-time visualization of subsurface ice dis
   - Built from about 600 scenes acquired 2019-09-22 to 2023-10-18
   - CPR definition: Putrevu et al., 2023, DOI 10.1029/2023JE007745
   - The raw data (about 7 GB) is **not** in this repository. Download it from PRADAN.
-- **Elevation:** `Data/dem_faustini_v2.tif`, native resolution 120 m
-  - Source: TODO (write the exact product name before submission)
+- **Elevation:** Data/dem_faustini_v2.tif, native resolution 120 m
+    - Source: NASA LRO LOLA Digital Elevation Model (LDEM_75S_120M)
 - **Globe basemap:** NASA SVS 4720, CGI Moon Kit, LROC color map (4096 x 2048)
   - Not included. Download `lroc_color_16bit_srgb_4k.tif` from https://svs.gsfc.nasa.gov/4720
 
@@ -63,4 +63,5 @@ pip install rasterio pyproj pillow numpy
 
 - Chandrayaan-2 DFSAR data: ISRO / ISSDC PRADAN
 - Moon basemap: NASA Scientific Visualization Studio, CGI Moon Kit
-- Lunar elevation: TODO (LOLA / NASA PDS, confirm product)
+- Lunar elevation: NASA PDS / Lunar Reconnaissance Orbiter (LRO) LOLA Team
+
